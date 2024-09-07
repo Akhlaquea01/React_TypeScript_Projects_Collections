@@ -1,0 +1,37 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Sidebar = () => {
+    return (
+        <aside className="w-64 bg-gray-800 text-white p-4">
+            <nav>
+                <ul>
+                    <li className="mb-4">
+                        <Link to="/" className="hover:text-gray-300">Introduction</Link>
+                    </li>
+                    <li className="mb-4">
+                        <Link to="/jsx" className="hover:text-gray-300">JSX</Link>
+                    </li>
+                    <li className="mb-4">
+                        <Link to="/components/functional" className="hover:text-gray-300">Functional Components</Link>
+                    </li>
+                    <li className="mb-4">
+                        <Link to="/state" className="hover:text-gray-300">State</Link>
+                    </li>
+                    <li className="mb-4">
+                        <Link to="/props" className="hover:text-gray-300">Props</Link>
+                    </li>
+                    <li className="mb-4">
+                        <Link to="/hooks/usestate" className="hover:text-gray-300">useState Hook</Link>
+                    </li>
+                    <li className="mb-4">
+                        <Link to="/hooks/useeffect" className="hover:text-gray-300">useEffect Hook</Link>
+                    </li>
+                    {/* Add more links as needed */}
+                </ul>
+            </nav>
+        </aside>
+    );
+};
+
+export default Sidebar;
