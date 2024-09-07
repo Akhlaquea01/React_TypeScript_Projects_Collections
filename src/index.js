@@ -9,6 +9,7 @@ import {
 import reportWebVitals from './reportWebVitals';
 import Intro from './pages/Intro';
 import ClassComponent1 from './pages/class-components/ClassComponent1';
+import ErrorPage from './components/common/ErrorPage';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: 'class-components',
         element: <ClassComponent1 />
+      },
+      {
+        path: '*', // Catch-all route for 404 errors
+        element: <ErrorPage />
       }
     ]
   },
