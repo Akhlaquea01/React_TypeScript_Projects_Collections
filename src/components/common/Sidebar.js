@@ -10,7 +10,7 @@ const Sidebar = () => {
                         <Link to="/" className="hover:text-gray-300">Introduction</Link>
                     </li>
                     <li className="mb-4">
-                        <Link to="/jsx" className="hover:text-gray-300">JSX</Link>
+                        <Link to="/class-components" className="hover:text-gray-300">Class Components</Link>
                     </li>
                     <li className="mb-4">
                         <Link to="/components/functional" className="hover:text-gray-300">Functional Components</Link>

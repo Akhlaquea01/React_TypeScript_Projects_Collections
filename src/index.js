@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import Intro from './pages/Intro';
+import ClassComponent1 from './pages/class-components/ClassComponent1';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element:<Intro/>
+      },
+      {
+        path: 'class-components',
+        element: <ClassComponent1 />
       }
     ]
   },
