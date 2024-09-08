@@ -11,6 +11,8 @@ import Intro from './pages/Intro';
 import ClassComponent1 from './pages/class-components/ClassComponent1';
 import ErrorPage from './components/common/ErrorPage';
 import FunctionalComponent from './pages/functional-components/FunctionalComponent';
+import AllEventsComponent from './pages/AllEventsComponent';
+import FormsModule from './pages/form/FormsModule';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
       {
         path: 'functional-components',
         element: <FunctionalComponent />
+      },
+      {
+        path: 'event',
+        element: <AllEventsComponent />
+      },
+      {
+        path: 'forms',
+        element: <FormsModule />
       },
       {
         path: '*', // Catch-all route for 404 errors
