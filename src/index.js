@@ -10,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 import Intro from './pages/Intro';
 import ClassComponent1 from './pages/class-components/ClassComponent1';
 import ErrorPage from './components/common/ErrorPage';
+import FunctionalComponent from './pages/functional-components/FunctionalComponent';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: 'class-components',
         element: <ClassComponent1 />
+      },
+      {
+        path: 'functional-components',
+        element: <FunctionalComponent />
       },
       {
         path: '*', // Catch-all route for 404 errors

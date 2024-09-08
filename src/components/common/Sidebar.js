@@ -13,7 +13,7 @@ const Sidebar = () => {
                         <Link to="/class-components" className="hover:text-gray-300">Class Components</Link>
                     </li>
                     <li className="mb-4">
-                        <Link to="/components/functional" className="hover:text-gray-300">Functional Components</Link>
+                        <Link to="/functional-components" className="hover:text-gray-300">Functional Components</Link>
                     </li>
                     <li className="mb-4">
                         <Link to="/state" className="hover:text-gray-300">State</Link>
