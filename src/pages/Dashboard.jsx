@@ -4,6 +4,7 @@ const features = [
     { name: "useState", path: "/use-state" },
     { name: "useEffect", path: "/use-effect" },
     { name: "Context API", path: "/context-api" },
+    { name: "Forms", path: "/forms" },
 ];
 
 const Dashboard = () => {
