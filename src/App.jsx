@@ -9,6 +9,7 @@ import FormsPage from "./pages/FormsPage";
 import ApiPage from "./pages/ApiPage";
 import HocPage from "./pages/HocPage";
 import RenderPropsPage from "./pages/RenderPropsPage"; 
+import ErrorBoundaryPage from "./pages/ErrorBoundaryPage";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/api" element={<ApiPage />} />
         <Route path="/hoc" element={<HocPage />} /> 
         <Route path="/render-props" element={<RenderPropsPage />} /> 
+        <Route path="/error-boundary" element={<ErrorBoundaryPage />} /> 
         <Route path="*" element={<NotFoundPage />} /> {/* Handles invalid routes */}
       </Routes>
     </Router>

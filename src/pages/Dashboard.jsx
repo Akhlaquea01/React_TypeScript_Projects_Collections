@@ -8,6 +8,7 @@ const features = [
     { name: "API Integration", path: "/api" },
     { name: "HOC (Higher-Order Components)", path: "/hoc" },
     { name: "Render Props", path: "/render-props" },
+    { name: "Error Boundaries", path: "/error-boundary" },
 ];
 
 const Dashboard = () => {
