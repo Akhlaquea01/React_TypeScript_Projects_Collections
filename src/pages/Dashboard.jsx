@@ -10,6 +10,10 @@ const features = [
     { name: "Render Props", path: "/render-props" },
     { name: "Error Boundaries", path: "/error-boundary" },
     { name: "Lazy Loading", path: "/lazy-loading" },
+    { name: "Memoization", path: "/memoization" },
+    { name: "Portals", path: "/portals" },
+    { name: "forward-ref", path: "/forward-ref" },
+    { name: "use-ref", path: "/use-ref" },
 ];
 
 const Dashboard = () => {
