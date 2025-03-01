@@ -9,6 +9,7 @@ const features = [
     { name: "HOC (Higher-Order Components)", path: "/hoc" },
     { name: "Render Props", path: "/render-props" },
     { name: "Error Boundaries", path: "/error-boundary" },
+    { name: "Lazy Loading", path: "/lazy-loading" },
 ];
 
 const Dashboard = () => {

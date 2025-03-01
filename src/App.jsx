@@ -1,4 +1,5 @@
 import './App.css'
+import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import UseStatePage from "./pages/UseStatePage";
@@ -10,6 +11,9 @@ import ApiPage from "./pages/ApiPage";
 import HocPage from "./pages/HocPage";
 import RenderPropsPage from "./pages/RenderPropsPage"; 
 import ErrorBoundaryPage from "./pages/ErrorBoundaryPage";
+// import LazyLoadingPage from "./pages/LazyLoadingPage";
+
+const LazyLoadingPage = lazy(() => import("./pages/LazyLoadingPage"));
 
 function App() {
 
@@ -24,7 +28,8 @@ function App() {
         <Route path="/api" element={<ApiPage />} />
         <Route path="/hoc" element={<HocPage />} /> 
         <Route path="/render-props" element={<RenderPropsPage />} /> 
-        <Route path="/error-boundary" element={<ErrorBoundaryPage />} /> 
+        <Route path="/error-boundary" element={<ErrorBoundaryPage />} />
+        <Route path="/lazy-loading" element={<LazyLoadingPage />} />
         <Route path="*" element={<NotFoundPage />} /> {/* Handles invalid routes */}
       </Routes>
     </Router>
