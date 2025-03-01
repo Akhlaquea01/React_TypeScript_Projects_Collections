@@ -6,6 +6,8 @@ const features = [
     { name: "Context API", path: "/context-api" },
     { name: "Forms", path: "/forms" },
     { name: "API Integration", path: "/api" },
+    { name: "HOC (Higher-Order Components)", path: "/hoc" },
+    { name: "Render Props", path: "/render-props" },
 ];
 
 const Dashboard = () => {

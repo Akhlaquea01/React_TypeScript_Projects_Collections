@@ -7,6 +7,8 @@ import ContextPage from "./pages/ContextPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import FormsPage from "./pages/FormsPage";
 import ApiPage from "./pages/ApiPage";
+import HocPage from "./pages/HocPage";
+import RenderPropsPage from "./pages/RenderPropsPage"; 
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
         <Route path="/context-api" element={<ContextPage />} />
         <Route path="/forms" element={<FormsPage />} />
         <Route path="/api" element={<ApiPage />} />
+        <Route path="/hoc" element={<HocPage />} /> 
+        <Route path="/render-props" element={<RenderPropsPage />} /> 
         <Route path="*" element={<NotFoundPage />} /> {/* Handles invalid routes */}
       </Routes>
     </Router>
