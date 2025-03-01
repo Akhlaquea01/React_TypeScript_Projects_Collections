@@ -14,6 +14,9 @@ const features = [
     { name: "Portals", path: "/portals" },
     { name: "forward-ref", path: "/forward-ref" },
     { name: "use-ref", path: "/use-ref" },
+    { name: "Use Reducer", path: "/use-reducer" },
+    { name: "Use Imperative", path: "/use-imperative" },
+    { name: "Custom Hook", path: "/custom-hook" },
 ];
 
 const Dashboard = () => {
