@@ -17,6 +17,9 @@ const features = [
     { name: "Use Reducer", path: "/use-reducer" },
     { name: "Use Imperative", path: "/use-imperative" },
     { name: "Custom Hook", path: "/custom-hook" },
+    { name: "Profiler Page to calculate perfornmence", path: "/profiler" },
+    { name: "virtualized-grid", path: "/virtualized-grid" },
+    { name: "infinite-scrolling", path: "/infinite-scrolling" },
 ];
 
 const Dashboard = () => {

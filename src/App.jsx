@@ -17,6 +17,9 @@ import UseRefPage from './pages/UseRefPage';
 import UseReducerPage from './pages/UseReducerPage';
 import UseImperativeHandlePage from './pages/UseImperativeHandlePage';
 import UsersListPage from './pages/UsersListPage';
+import ProfilerPage from './pages/ProfilerPage';
+import VirtualizedGrid from './pages/VariableSizeGrid';
+import InfiniteScrollingList from './pages/InfiniteScrollingList';
 // import LazyLoadingPage from "./pages/LazyLoadingPage";
 
 const LazyLoadingPage = lazy(() => import("./pages/LazyLoadingPage"));
@@ -43,6 +46,9 @@ function App() {
         <Route path="/use-reducer" element={<UseReducerPage />} />
         <Route path="/use-imperative" element={<UseImperativeHandlePage />} />
         <Route path="/custom-hook" element={<UsersListPage />} />
+        <Route path="/profiler" element={<ProfilerPage />} />
+        <Route path="/infinite-scrolling" element={<InfiniteScrollingList />} />
+        <Route path="/virtualized-grid" element={<VirtualizedGrid />} />
         <Route path="*" element={<NotFoundPage />} /> {/* Handles invalid routes */}
       </Routes>
     </Router>
