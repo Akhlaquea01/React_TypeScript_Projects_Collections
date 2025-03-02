@@ -20,6 +20,7 @@ const features = [
     { name: "Profiler Page to calculate perfornmence", path: "/profiler" },
     { name: "virtualized-grid", path: "/virtualized-grid" },
     { name: "infinite-scrolling", path: "/infinite-scrolling" },
+    { name: "redux-counter", path: "/redux-counter" },
 ];
 
 const Dashboard = () => {

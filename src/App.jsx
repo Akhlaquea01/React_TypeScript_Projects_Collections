@@ -20,6 +20,7 @@ import UsersListPage from './pages/UsersListPage';
 import ProfilerPage from './pages/ProfilerPage';
 import VirtualizedGrid from './pages/VariableSizeGrid';
 import InfiniteScrollingList from './pages/InfiniteScrollingList';
+import ReduxCounter from './pages/ReduxCounter';
 // import LazyLoadingPage from "./pages/LazyLoadingPage";
 
 const LazyLoadingPage = lazy(() => import("./pages/LazyLoadingPage"));
@@ -49,6 +50,7 @@ function App() {
         <Route path="/profiler" element={<ProfilerPage />} />
         <Route path="/infinite-scrolling" element={<InfiniteScrollingList />} />
         <Route path="/virtualized-grid" element={<VirtualizedGrid />} />
+        <Route path="/redux-counter" element={<ReduxCounter />} />
         <Route path="*" element={<NotFoundPage />} /> {/* Handles invalid routes */}
       </Routes>
     </Router>
