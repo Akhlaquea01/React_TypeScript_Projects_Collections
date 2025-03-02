@@ -21,6 +21,11 @@ import ProfilerPage from './pages/ProfilerPage';
 import VirtualizedGrid from './pages/VariableSizeGrid';
 import InfiniteScrollingList from './pages/InfiniteScrollingList';
 import ReduxCounter from './pages/ReduxCounter';
+import ControlledForm from './pages/ControlledForm';
+import UncontrolledForm from './pages/UncontrolledForm';
+import FunctionAsChild from './pages/FunctionAsChild';
+import TabPage from './components/Tabs/TabPage';
+import AccordionPage from './components/Accordion/AccordianPage';
 // import LazyLoadingPage from "./pages/LazyLoadingPage";
 
 const LazyLoadingPage = lazy(() => import("./pages/LazyLoadingPage"));
@@ -51,6 +56,11 @@ function App() {
         <Route path="/infinite-scrolling" element={<InfiniteScrollingList />} />
         <Route path="/virtualized-grid" element={<VirtualizedGrid />} />
         <Route path="/redux-counter" element={<ReduxCounter />} />
+        <Route path="/controlled-form" element={<ControlledForm />} />
+        <Route path="/un-controlled-form" element={<UncontrolledForm />} />
+        <Route path="/function-as-child" element={<FunctionAsChild />} />
+        <Route path="/tabs" element={<TabPage />} />
+        <Route path="/accordion" element={<AccordionPage />} />
         <Route path="*" element={<NotFoundPage />} /> {/* Handles invalid routes */}
       </Routes>
     </Router>

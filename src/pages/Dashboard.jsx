@@ -21,6 +21,11 @@ const features = [
     { name: "virtualized-grid", path: "/virtualized-grid" },
     { name: "infinite-scrolling", path: "/infinite-scrolling" },
     { name: "redux-counter", path: "/redux-counter" },
+    { name: "controlled-form", path: "/controlled-form" },
+    { name: "un-controlled-form", path: "/un-controlled-form" },
+    { name: "Function As Child", path: "/function-as-child" },
+    { name: "Tabs", path: "/tabs" },
+    { name: "Accordion", path: "/accordion" },
 ];
 
 const Dashboard = () => {
